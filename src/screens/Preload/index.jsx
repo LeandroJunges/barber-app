@@ -14,7 +14,7 @@ export default ()=>{
   useEffect(()=>{
     const checkToken = async ()=>{
       const token = await AsyncStorage.getItem('token');
-      console.log('eu sou o token:',token)
+      
       if(token){
         let res = await Api.checkToken(token)
         if(res.token){
