@@ -109,6 +109,32 @@ export const DateNextArea = styled.TouchableOpacity`
 
 export const DateList = styled.ScrollView``;
 
+export const DateItem = styled.TouchableOpacity`
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 5px ;
+  padding-bottom: 5px;
+
+`;
+
+
+export const DateItemWeekday = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+  
+
+`;
+
+
+export const DateItemNumber = styled.Text`
+  font-size: 16px;
+  font-weight: bold;
+
+`;
+
+
 
 
 
@@ -129,6 +155,24 @@ export const FinishButton = styled.TouchableOpacity`
 export const FinishButtonText = styled.Text`
   color: #FFF;
   font-size: 17px;
+  font-weight: bold;
+
+`;
+
+export const TimeList = styled.ScrollView``;
+
+
+export const TimeItem = styled.TouchableOpacity`
+  width: 75px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+`;
+
+export const TimeItemText = styled.Text`
+  font-size: 16px;
   font-weight: bold;
 
 `;
