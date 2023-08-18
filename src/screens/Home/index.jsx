@@ -36,8 +36,7 @@ export default ()=> {
   const [list, setList] = useState([]);
   const [refreshing, setRefreshing] = useState(false)
 
-
-
+//console.log("eu sou a lista de barbeiros atualizada=>", list[0])
 
 
 

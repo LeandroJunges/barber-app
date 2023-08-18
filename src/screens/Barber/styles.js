@@ -154,7 +154,7 @@ export const LoadingIcon = styled.ActivityIndicator`
 `;
 
 
-// arera de serviços 
+// area de serviços 
 
         
 export const ServiceArea = styled.View`

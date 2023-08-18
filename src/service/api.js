@@ -87,6 +87,7 @@ export default {
       body: JSON.stringify({token, barber : barberId})
     });
     const json = await req.json();
+    console.log(json)
     return json
 
   },

@@ -6,3 +6,9 @@ flex: 1;
 justify-content: center;
 align-items: center;
 `
+
+
+export const Scroller = styled.ScrollView`
+  flex: 1;
+  padding: 20px;
+`;

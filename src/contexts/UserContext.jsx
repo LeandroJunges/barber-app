@@ -6,7 +6,7 @@ export const UserContext = createContext();
 
 export default ({children})=>{
   const [state, dispatch] = useReducer(UserReducer, initialState);
-
+  const [favBarber, setFavBarbar] = useState();
   return (
     <UserContext.Provider value={{state, dispatch}}>
       {children}
